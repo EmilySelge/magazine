@@ -151,6 +151,7 @@ input {
         grid-template-rows: 1fr 1fr;
         padding: 0 1rem;
         justify-content: space-between;
+        margin: 2rem 0;
 
     }
     
@@ -163,12 +164,13 @@ input {
     .footer-nav > div{
         display: flex;
         flex-direction: column;
-        margin-right: 0rem;
+        margin-right: 6rem;
     
     }
 
     .footer-nav > div > a {
         font-size: 16px;
+        width: fit-content;
     }
 
     .footer-sign-up-box {
@@ -179,7 +181,13 @@ input {
     
     .socials {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         padding: 1rem;
+    }
+
+
+    .socials > div > img  {
+        margin-right: 0.5rem;
     }
 }

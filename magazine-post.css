@@ -67,6 +67,7 @@ a {
 
 .go-back-h4 {
     margin-left: 0.5rem;
+    font-weight: bolder;
 }
 
 .description {
@@ -495,6 +496,10 @@ span {
         width: 100%;
     }
 
+    .text-podcast {
+        margin-top: 2rem;
+    }
+
     .profile {
         width: 100%;
     }
@@ -570,6 +575,23 @@ span {
         
     }
     
+    .louises-articles {
+        font-size: 2rem;
+    }
+
+    .authors-div {
+      display: flex;
+      flex-direction: column;
+      margin: 2rem 0;
+        
+        
+    }
+
+
+    .author-img {
+        margin-bottom: 1.5rem;
+    }
+
     .magazine > p{
         font-size: 14px;
         
