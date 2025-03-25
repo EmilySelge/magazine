@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+}
+* {
+    font-family: sans-serif;
+}
+
+
+.magazine-section {
+    padding: 0rem 3rem;
+}
+
+a {
+    font-size: 18px;
+    margin: 0 0.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+
+h1 {
+    font-size: 15rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.category-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-size: 12px;
+    margin: 0 0.5rem;
+}
+
+.category-buttons {
+    display: flex;
+
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.magazines {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.magazine-date-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: lighter;
+
+}
+
+.magazine-text-duration {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px ;
+    
+    
+
+}
+
+span {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+
+
+.magazines {
+    display: flex;
+    border: 1px solid black;
+}
+
+.magazines-2 {
+    display: flex;
+    border: 1px solid black;
+    margin: 6rem 0;
+}
+
+.category {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-size: 12px;
+}
+
+.magazine {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.magazine-2 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.magazine > h3{
+   font-size: 26px;
+   
+}
+
+.magazine > img {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.description {
+    font-weight: lighter;
+    line-height: 150%;
+    margin-top: 0;
+}
+
+.all-magazines {
+    padding-top: 4rem;
+    display: flex;
+    font-weight:600;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+
+.news-ticker {
+    background: black;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
+    padding: 1rem;
+    padding-right: 0;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+        padding: 0;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .magazine-section {
+        padding: 0rem 1rem;
+    }
+
+    
+    .news-ticker > h3 {
+        margin-right: 1rem;
+        font-size: 14px;
+    
+
+    }
+
+
+    .news-ticker {
+   
+        overflow: hidden;
+    
+    }
+
+    .news-ticker > p {
+        font-size: 14px;
+    
+    }
+
+
+    span {
+       display: inline-block;
+    }
+
+    
+
+    
+    .category-btn {
+        display: flex;
+        align-items: center;
+        padding: 0.25rem 1rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        font-size: 10px;
+        margin:  0  1rem 0 0;
+    }
+
+    .category-buttons {
+        display: flex;
+
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-bottom: 1rem;
+        align-items: baseline;
+        
+    }
+
+
+
+    .magazines {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+
+    }
+    
+    .magazine-date-category {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: lighter;
+    
+    }
+    
+    .magazine-text-duration {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px ;
+    }
+
+
+    
+    .magazines-2 {
+        display: flex;
+        margin: 6rem 0;
+        border-top: none;
+        border-bottom: none;
+
+    }
+
+    .magazine > h3{
+        font-size: 20px;
+        
+    }
+    
+    .magazine > p{
+        font-size: 14px;
+        
+    }
+    
+    .magazine-2 {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: none;
+        border-right: none;
+    }
+
+    .author {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        border: 1px solid black;
+    }   
+
+
+}
+  

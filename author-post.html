@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="magazine-post.css">
+    <link rel="stylesheet" href="podcast-post.css">
+</head>
+<body>
+    <section class="mag-post-section">
+        <div id="header-container"></div>
+        <div class="go-back">
+            <div class="go-back-arrow">
+                <img src="./img/left-arrow.png" alt="">
+                <h4 class="go-back-h4">GO BACK</h4>
+            </div>
+            <h3>AUTHOR</h3>
+            
+        </div>
+    
+    </section>
+    
+    <section class="post-content">
+        <div class="profile">
+            <div class="podcast-info author-info">
+                <img src="./img/louise-2.webp" alt="">
+            </div>
+            <div>
+                <div class="info author-socials-info">
+                    <h3>FOLLOW</h3>
+                    <div>
+                        <img src="./img/insta-icon-blackj.png" alt="">
+                        <img src="./img/twitter-icon-black.png" alt="">
+                        <img src="./img/yt-icon-black.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="text">
+            <div>
+                <h1>LOUISE JENSEN</h1>
+            </div>
+            <p class="bigger-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.</p>
+            <p class="smaller-text">Porttitor rhoncus dolor purus non enim praesent elementum. Eget dolor morbi non arcu risus quis varius. Posuere ac ut consequat semper viverra nam libero. In ornare quam viverra orci sagittis eu. Tristique risus nec feugiat in fermentum posuere urna nec. Tempus quam pellentesque nec nam aliquam sem et. Convallis a cras semper auctor neque vitae tempus quam pellentesque. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Sit amet porttitor eget dolor morbi non arcu risus. Justo eget magna fermentum iaculis eu non diam phasellus. Sit amet luctus venenatis lectus magna fringilla. Neque vitae tempus quam pellentesque nec nam.</p>
+        </div>
+       
+    </section>
+    <section class="authors">
+        <div>
+            <h2 class="louises-articles">Articles by Louise Jensen</h2>
+        </div>
+        <div class="authors-div">
+            <div class="author">
+                <img class="author-img" src="./img/louise-article-1.webp" alt="">
+                <div>
+                    <h3>The best art museums</h3>
+                    <div class="your-eyes-div-subdiv">
+                        <p><span>Date</span>16.06.2022</p>
+                        <p><span>Duration</span>1h 20 min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="author">
+                <img class="author-img" src="./img/louise-article.2.webp" alt="">
+                <div>
+                    <h3>An indestructible hope</h3>
+                    <div class="your-eyes-div-subdiv">
+                        <p><span>Date</span>16.06.2022</p>
+                        <p><span>Duration</span>1h 20 min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="author">
+                <img class="author-img" src="./img/louise-article-3.webp" alt="">
+                <div>
+                    <h3>The chains of our lives</h3>
+                    <div class="your-eyes-div-subdiv">
+                        <p><span>Date</span>16.06.2022</p>
+                        <p><span>Duration</span>1h 20 min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="author">
+                <img class="author-img" src="./img/louise-article-4.webp" alt="">
+                <div>
+                    <h3>Keep on smiling</h3>
+                    <div class="your-eyes-div-subdiv">
+                        <p><span>Date</span>16.06.2022</p>
+                        <p><span>Duration</span>1h 20 min</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+    <div id="footer-container"></div>
+    <script>
+        fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('header-container').innerHTML = data;
+    });
+ 
+ fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('footer-container').innerHTML = data;
+    });
+     </script>   
+    
+</body>
+</html>
