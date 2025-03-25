@@ -98,7 +98,7 @@ h1 {
 
 }
 
-.your-eyes > h2, .podcasts > div > h2 {
+.your-eyes > h2, .podcasts > div > h2, .all-authors > h2 {
     font-size: 5rem;
     margin: 0;
 }
@@ -292,6 +292,10 @@ span {
     align-items: center;
 }
 
+.all-podcasts-div > a, .all-podcasts > a {
+    font-weight: bold;
+}
+
 .podcasts-div {
     display: flex;
     border: 1px solid black;
@@ -338,6 +342,7 @@ span {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    margin: 4rem 0;
     
     
 }
@@ -420,7 +425,7 @@ span {
     }
 
 
-    .your-eyes > h2, .podcasts > div > h2, .footer-sign-up > h2 {
+    .your-eyes > h2, .podcasts > div > h2, .footer-sign-up > h2, .all-authors > h2 {
         font-size: 2rem;
         margin: 0;
     }

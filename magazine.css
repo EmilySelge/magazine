@@ -69,6 +69,15 @@ h1 {
     
 
 }
+.all-magazines > a {
+    font-weight: bolder;
+}
+
+.magazine-text-duration > p {
+   
+    margin-right: 1rem;
+
+}
 
 span {
     font-weight: bold;
@@ -167,6 +176,9 @@ span {
 
     }
 
+    .magazines-3 {
+        margin: 4rem 0;
+    }
 
     .news-ticker {
    

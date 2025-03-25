@@ -14,7 +14,7 @@
         <div class="go-back">
             <div class="go-back-arrow">
                 <img src="./img/left-arrow.png" alt="">
-                <h4 class="go-back-h4">GO BACK</h4>
+                <a href="./magazine.html" class="go-back-h4">GO BACK</a>
             </div>
             <h3>MAGAZINE</h3>
             
@@ -78,13 +78,14 @@
     <section class="latest-posts-section">
         <div>
             <h2 class="">LATEST POSTS</h2>
-            <div class="all-podcasts">SEE ALL
+            <div class="all-podcasts">
+                <a href="./magazine.html">SEE ALL</a>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
                   </svg>
             </div>
         </div>
-        <div class="magazines magazines-2">
+        <div class="magazines magazines-3">
             <div class="magazine">
                 <div class="magazine-date-category">
                     <p>16. March 2022</p>
@@ -130,7 +131,18 @@
         </div>
     </section>
     <div id="footer-container"></div>
-
-    
+    <script>
+        fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('header-container').innerHTML = data;
+    });
+ 
+ fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('footer-container').innerHTML = data;
+    });
+     </script>   
 </body>
 </html>

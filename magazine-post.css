@@ -100,6 +100,13 @@ h1 {
     
     
 
+
+}
+.post-text-date > p {
+    margin-right: 1rem;
+    
+    
+
 }
 
 
@@ -190,6 +197,30 @@ nav > div > img {
 
 .louises-articles {
     font-size: 3.5rem;
+}
+
+
+.latest-posts-section > div {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding-top: 2rem ;
+    margin-top: 4rem;
+}
+
+.all-podcasts {
+    display: flex;
+    font-weight:600;
+    align-items: center;
+}
+
+.all-podcasts > a {
+    font-weight: bolder;
+}
+
+.latest-posts-section > div > h2 {
+    font-size: 5rem;
+    margin: 0;
 }
 
 .music-icons > img {
@@ -388,6 +419,10 @@ span {
 
 }
 
+.magazines-3 {
+    margin-bottom: 4rem;
+}
+
 
 .author {
     display: flex;
@@ -473,6 +508,12 @@ span {
     }
 
 
+    .latest-posts-section > div > h2 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+
     .post-content {
         padding: 1rem;
     }
@@ -536,6 +577,9 @@ span {
         width: 100%
     }
 
+    .magazines-3 {
+        margin-bottom: 4rem;
+    }
 
 
     .magazines {
